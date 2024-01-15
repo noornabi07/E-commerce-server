@@ -2,8 +2,12 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 require('dotenv').config();
+var morgan = require('morgan')
 const port = process.env.PORT || 3000;
 
+
+// middleware
+app.use(morgan('dev'));
 app.use(cors());
 app.use(express.json());
 
