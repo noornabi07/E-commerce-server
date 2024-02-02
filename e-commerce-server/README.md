@@ -13,4 +13,5 @@
 10. How to secure API --> npm xss-clean//xss-filters, express-rate-limit --> v-10
 11. Environment variable & gitignore
 12. MVC Architecture 
+13. Connected to mongodb database
 
